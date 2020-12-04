@@ -5,7 +5,7 @@ fn main() {
     let mut _local1 = url::Url::path_segments_mut(&mut _local0).unwrap();
     let _ = url::PathSegmentsMut::pop(&mut _local1);
 }
-//inputs may lead to crash:
+//other inputs should cause crash:
 //"o://\u{e71d}\u{e71d}"
 //"o://ڎ"
 //"o://\u{5c71d}"
