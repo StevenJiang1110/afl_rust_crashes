@@ -1,0 +1,6 @@
+[workspace]
+members = [
+	"replay_json57-1",
+	"replay_json57-2",
+	"replay_json53-1",
+]
