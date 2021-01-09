@@ -4,7 +4,6 @@ fn main() {
     let app_ = clap::SubCommand::with_name("0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000-қ00000000000000000 蚝");
     let mut app2_ = clap::App::display_order(app_ ,3472328296227680304);
     let _ = clap::App::print_help(&mut app2_);
-
 }
 
 //other input may cause panic:

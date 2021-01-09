@@ -5,3 +5,7 @@ fn main() {
     let _ = json::object::Object::with_capacity(capacity);
 }
 
+//other data may cause panic:
+//1816697882090483224
+//3248809668288845358
+

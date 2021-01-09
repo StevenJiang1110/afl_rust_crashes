@@ -3,7 +3,6 @@ fn main() {
     let param0 = "00000000000000-00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 璀璀璀";
     let mut app_ = clap::SubCommand::with_name(param0);
     let _ = clap::App::print_long_help(&mut app_);
-
 }
 
 //other input may cause panic:
